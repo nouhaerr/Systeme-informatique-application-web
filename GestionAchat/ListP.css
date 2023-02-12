@@ -1,0 +1,112 @@
+.home .LP {
+    font-size: 10px;
+    padding: 12px 60px;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.774);
+    caption-side: top;
+    width: 80%;
+    margin: auto;
+    border: 2px solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 30px;
+    color: rgb(40, 76, 129);
+    text-shadow: 2px 2px 5px rgb(157, 205, 245), 0 0 25px rgb(154, 154, 192), 0 0 5px rgb(7, 0, 49);
+}
+
+th {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(2, 3, 59);
+    border: 2px solid;
+    border-color: black;
+}
+
+td {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 2px solid;
+}
+
+.Photo {
+    width: 5px;
+    height: 5px;
+    border-radius: 5%;
+    border: 1px solid;
+}
+
+body.dark caption {
+    color: rgb(156, 157, 206);
+    text-shadow: 2px 2px 5px rgb(6, 21, 34), 0 0 25px rgb(154, 154, 192), 0 0 5px rgb(124, 106, 224);
+}
+
+form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: rgb(109, 117, 231);
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid rgb(56, 152, 230);
+    padding: 5px;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fas {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #0f0a36;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover {
+    width: 300px;
+    cursor: pointer;
+}
+
+form:hover input {
+    display: block;
+}
+
+form:hover .fas {
+    background: #5fadb3;
+    color: white;
+}
+
+.home {
+    background-size: cover;
+    background-attachment: fixed;
+}
